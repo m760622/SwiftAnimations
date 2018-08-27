@@ -20,15 +20,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        pinkBall.layer.cornerRadius = pinkBall.frame.width/2
-        greenBall.layer.cornerRadius = greenBall.frame.width/2
-        yellowBall.layer.cornerRadius = yellowBall.frame.width/2
         setUpView();
     }
     
     
+    /**
+     Initial setting up for the Views
+     */
     func setUpView() {
+        
+        
+        //Corner Radius for Views
+        pinkBall.layer.cornerRadius = pinkBall.frame.width/2
+        greenBall.layer.cornerRadius = greenBall.frame.width/2
+        yellowBall.layer.cornerRadius = yellowBall.frame.width/2
         
         // Add constraints
         pinkBall.translatesAutoresizingMaskIntoConstraints = false
@@ -52,13 +57,34 @@ class ViewController: UIViewController {
             yellowBall.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
         
         ]
+        
+        // Adding constrains for UIViews
         addConstrains(constrainsts: constarins)
-        startOscilation()
-        perform(#selector(startAnimation), with: nil, afterDelay: 5)
+        
+        // Call Pulsating Animation
+        startPulseAnimation()
+        
+        //Calling strech animation after a delay
+        perform(#selector(startStretchAnimation), with: nil, afterDelay: 5)
     }
     
     
-    @objc func startAnimation() {
+    /**
+     Adds constraints for the given views.
+     
+     - parameter constrainsts: array of NSLayoutConstraint
+     */
+    func addConstrains(constrainsts:[NSLayoutConstraint]) {
+        
+        NSLayoutConstraint.activate(constrainsts)
+    }
+    
+    
+    /**
+     
+     Code for starting the Stretching Animation
+     */
+    @objc func startStretchAnimation() {
         
         let pinkBallDx:CGFloat = 40
         let greenBallDx:CGFloat =  0
@@ -90,7 +116,12 @@ class ViewController: UIViewController {
         }
     }
     
-    func startOscilation() {
+    
+    /**
+     
+     Code for starting the Pulsating Animation
+     */
+    func startPulseAnimation() {
         
         UIView.animate(withDuration: 1, delay: 0, options: [.repeat,.autoreverse,.curveEaseInOut], animations: {
             self.pinkBall.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
@@ -104,6 +135,9 @@ class ViewController: UIViewController {
         
     }
     
+    /**
+     Remove all animations from UIViews
+     */
     func removeAllAnimations() {
         self.pinkBall.layer.removeAllAnimations()
         self.yellowBall.layer.removeAllAnimations()
@@ -113,7 +147,10 @@ class ViewController: UIViewController {
     }
     
     
-    
+    /**
+     
+     Code for starting the Bouncing Animation
+     */
     func startBounceAnimation() {
         let dampingDY:CGFloat = self.view.bounds.height/2 - 80
         UIView.animate(withDuration: 3.0, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 6.0, options: .curveEaseInOut, animations: {
@@ -121,13 +158,16 @@ class ViewController: UIViewController {
             self.greenBall.frame = self.greenBall.frame.offsetBy(dx: 0, dy: dampingDY)
             self.yellowBall.frame = self.yellowBall.frame.offsetBy(dx: -29, dy: dampingDY)
         }, completion: { (completion) in
-            self.startOscilation()
+            self.startPulseAnimation()
             UIView.animate(withDuration: 1.0, animations: {
                 self.reloadButton.alpha = 1.0
             })
         })
     }
     
+    /**
+     Action to restart the animation
+     */
     @IBAction func reloadAction(_ sender: UIButton) {
         
         
@@ -142,14 +182,13 @@ class ViewController: UIViewController {
             completion in
             if completion == .end {
                 self.reloadButton.alpha = 0
-                self.startAnimation()
+                self.startStretchAnimation()
             }
         }
     }
-    func addConstrains(constrainsts:[NSLayoutConstraint]) {
-        
-        NSLayoutConstraint.activate(constrainsts)
-    }
+    
+    
+  
     
     
 
