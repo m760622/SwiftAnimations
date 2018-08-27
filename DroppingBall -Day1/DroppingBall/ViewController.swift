@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    // MARK: Properties
     @IBOutlet var pinkBall: UIView!
     @IBOutlet var greenBall: UIView!
     @IBOutlet var yellowBall: UIView!
@@ -17,6 +19,9 @@ class ViewController: UIViewController {
 
     var bounceAnimator: UIViewPropertyAnimator?
     
+    
+    
+    // MARK: Methods
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -118,7 +123,6 @@ class ViewController: UIViewController {
     
     
     /**
-     
      Code for starting the Pulsating Animation
      */
     func startPulseAnimation() {
@@ -148,7 +152,6 @@ class ViewController: UIViewController {
     
     
     /**
-     
      Code for starting the Bouncing Animation
      */
     func startBounceAnimation() {
@@ -186,12 +189,5 @@ class ViewController: UIViewController {
             }
         }
     }
-    
-    
-  
-    
-    
-
-
 }
 
