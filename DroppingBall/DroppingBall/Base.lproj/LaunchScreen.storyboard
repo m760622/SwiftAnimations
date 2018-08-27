@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="green" translatesAutoresizingMaskIntoConstraints="NO" id="VKx-co-Pb7">
+                                <rect key="frame" x="147.5" y="293.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="JDt-lX-ec4"/>
+                                    <constraint firstAttribute="width" constant="80" id="R2u-s8-Ypu"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellow" translatesAutoresizingMaskIntoConstraints="NO" id="uGH-yQ-2mI">
+                                <rect key="frame" x="256.5" y="293.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Hwu-o2-Kn5"/>
+                                    <constraint firstAttribute="height" constant="80" id="nnv-ro-8Dh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pink" translatesAutoresizingMaskIntoConstraints="NO" id="phj-Fa-R7Q">
+                                <rect key="frame" x="38.5" y="293.5" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="NZZ-G7-v6h"/>
+                                    <constraint firstAttribute="width" constant="80" id="qhl-WO-QfE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uGH-yQ-2mI" firstAttribute="leading" secondItem="VKx-co-Pb7" secondAttribute="trailing" constant="29" id="13W-WN-NFi"/>
+                            <constraint firstItem="uGH-yQ-2mI" firstAttribute="leading" secondItem="VKx-co-Pb7" secondAttribute="trailing" constant="29" id="8ap-zf-oRs"/>
+                            <constraint firstItem="VKx-co-Pb7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LNm-fF-219"/>
+                            <constraint firstItem="uGH-yQ-2mI" firstAttribute="leading" secondItem="VKx-co-Pb7" secondAttribute="trailing" constant="29" id="Qcd-xY-eNL"/>
+                            <constraint firstItem="VKx-co-Pb7" firstAttribute="leading" secondItem="phj-Fa-R7Q" secondAttribute="trailing" constant="29" id="f3Z-7E-MbU"/>
+                            <constraint firstItem="VKx-co-Pb7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fFf-Tw-Qsh"/>
+                            <constraint firstItem="uGH-yQ-2mI" firstAttribute="centerY" secondItem="VKx-co-Pb7" secondAttribute="centerY" id="vda-DL-4ch"/>
+                            <constraint firstItem="phj-Fa-R7Q" firstAttribute="centerY" secondItem="VKx-co-Pb7" secondAttribute="centerY" id="w7e-Mf-aRY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="green" width="80" height="80"/>
+        <image name="pink" width="80" height="80"/>
+        <image name="yellow" width="80" height="80"/>
+    </resources>
+</document>
