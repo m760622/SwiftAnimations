@@ -2,7 +2,7 @@
 
 ### DroppingBall
 
-    UIView Elastic and Bouncing animations .
+UIView Elastic and Bouncing animations 
 
 
 ## Requirements
