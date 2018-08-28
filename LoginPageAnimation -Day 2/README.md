@@ -23,9 +23,6 @@
   [![LoginPageAnimation](https://github.com/AnanthaKrish/SwiftAnimations/tree/master/LoginPageAnimation%20-%20Day%202/image/loginpageanim.png)](https://www.youtube.com/watch?v=zLZ_MkKMEpI&feature=youtu.be)
 
 
-
-  []
-
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
