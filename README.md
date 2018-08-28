@@ -17,5 +17,28 @@ A 100 days challenge on iOS Animations. All th samples will be written in swift 
   - [UIView.animate(withDuration:animations:)](https://developer.apple.com/documentation/uikit/uiview/1622418-animate)
   - [UIView.animate(withDuration:delay: usingSpringWithDamping:initialSpringVelocity:options:animations:completion:](https://developer.apple.com/documentation/uikit/uiview/1622594-animatewithduration)
 
+Watch it in YouTube 
+
+  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/tree/master/DroppingBall%20-Day%202/image/droppingball.png)](https://www.youtube.com/watch?v=DEpWPC3EOhI&feature=youtu.be)
+
+
+## Day 2 : LoginPageAnimation 
+
+  An animated login page . UIs are from [Tung Vo Chi](https://www.behance.net/gallery/57579249/Moon-heart-Mobile-app-social-images-sharing).
+
+#### Description
+
+  
+ I have used the following ,
+
+ - [NSLayoutConstraint](https://developer.apple.com/documentation/uikit/nslayoutconstraint)
+ - [UIViewPropertyAnimator](https://developer.apple.com/documentation/uikit/uiviewpropertyanimator)
+ - [UIView.animate(withDuration:animations:)](https://developer.apple.com/documentation/uikit/uiview/1622418-animate)
+
+  
+  Watch it in YouTube 
+
+  [![LoginPageAnimation](https://github.com/AnanthaKrish/SwiftAnimations/tree/master/LoginPageAnimation%20-%20Day%202/image/loginpageanim.png)](https://www.youtube.com/watch?v=zLZ_MkKMEpI&feature=youtu.be)
+
 
 
