@@ -3,10 +3,9 @@
 A 100 days challenge on iOS Animations. All th samples will be written in swift 4. 
 
 
-
 ## Day 1 : DroppingBall 
 
-    UIView Elastic and Bouncing animations .
+  UIView Elastic and Bouncing animations.
 
 #### Description
 
