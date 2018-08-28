@@ -23,7 +23,7 @@ UIView Elastic and Bouncing animations
 
   Watch it in YouTube 
 
-  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/tree/master/DroppingBall%20-Day%202/image/droppingball.png)](https://www.youtube.com/watch?v=zLZ_MkKMEpI&feature=youtu.be)
+  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/tree/master/DroppingBall%20-Day%202/image/droppingball.png)](https://www.youtube.com/watch?v=DEpWPC3EOhI&feature=youtu.be)
 
 
 ## LICENCE
