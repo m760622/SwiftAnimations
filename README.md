@@ -19,7 +19,7 @@ A 100 days challenge on iOS Animations. All th samples will be written in swift 
 
 Watch it in YouTube 
 
-  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/DroppingBall%20-Day%201/image/droppingball.png  =250x250)](https://www.youtube.com/watch?v=DEpWPC3EOhI&feature=youtu.be)
+  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/DroppingBall%20-Day%201/image/droppingball.png)](https://www.youtube.com/watch?v=DEpWPC3EOhI&feature=youtu.be)
 
 
 ## Day 2 : LoginPageAnimation 
@@ -38,7 +38,7 @@ Watch it in YouTube
   
   Watch it in YouTube 
 
-  [![LoginPageAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LoginPageAnimation%20-Day%202/image/loginpageanim.png  =250x250)](https://www.youtube.com/watch?v=zLZ_MkKMEpI&feature=youtu.be)
+  [![LoginPageAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LoginPageAnimation%20-Day%202/image/loginpageanim.png)](https://www.youtube.com/watch?v=zLZ_MkKMEpI&feature=youtu.be)
 
 
 
