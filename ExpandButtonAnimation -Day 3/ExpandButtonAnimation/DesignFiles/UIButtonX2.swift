@@ -9,6 +9,9 @@
 import UIKit
 import QuartzCore
 
+/**
+ Custom button for Sub items 
+ */
 @IBDesignable
 class UIButtonX2: UIButton {
 
