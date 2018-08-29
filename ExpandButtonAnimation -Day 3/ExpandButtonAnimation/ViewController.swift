@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    // MARK: Properties (Public)
+    
+    // contraints variables
     @IBOutlet weak var mainButton: UIButtonX!
     @IBOutlet weak var secondButton: UIButtonX2!
     @IBOutlet weak var thirdButton: UIButtonX2!
@@ -23,6 +27,8 @@ class ViewController: UIViewController {
     var collapseAnimator:UIViewPropertyAnimator?
     
     
+    
+    // MARK: Functions
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -43,7 +49,9 @@ class ViewController: UIViewController {
         
     }
 
-    
+    /**
+     Action for Main Button
+     */
     @IBAction func mainButtonAction(_ sender: Any) {
         
         if mainButton.imageView?.transform != .identity {
@@ -54,6 +62,10 @@ class ViewController: UIViewController {
         }
     }
     
+     // MARK: Animators
+    /**
+     Creating Animators
+     */
     func createAnimators () {
         self.expandAnimator = nil
         self.collapseAnimator = nil
@@ -102,6 +114,9 @@ class ViewController: UIViewController {
         })
     }
     
+    /**
+     Animate Sub-buttons
+     */
     func animate(_ isStart: Bool) {
         
        
@@ -145,6 +160,5 @@ class ViewController: UIViewController {
                 
             }
     }
-    
 }
 
