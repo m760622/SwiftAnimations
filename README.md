@@ -1,4 +1,4 @@
-# SwiftAnimations - About
+# SwiftAnimations 🤡 💻
 
 [![](https://img.shields.io/badge/%20Swift-4-green.svg)](https://github.com/AnanthaKrish/SwiftAnimations)
 [![](https://img.shields.io/badge/iOS-10-blue.svg)](https://github.com/AnanthaKrish/SwiftAnimations)
