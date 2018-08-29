@@ -58,3 +58,8 @@ Floating button animation
   [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/ExpandButtonAnimation%20-Day%203/image/ExpandButtonAnimation.png)](https://www.youtube.com/watch?v=Uxg5elN8MGw&feature=youtu.be)
 
 
+
+
+## LICENCE
+
+  Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
