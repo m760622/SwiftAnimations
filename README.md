@@ -1,6 +1,7 @@
 # SwiftAnimations - About
 
 [![](https://img.shields.io/badge/%20Swift-4-green.svg)](https://github.com/AnanthaKrish/SwiftAnimations)
+[![](https://img.shields.io/badge/iOS-10-blue.svg)](https://github.com/AnanthaKrish/SwiftAnimations)
 
 
 A 100 days challenge on iOS Animations. All th samples will be written in swift 4. 
