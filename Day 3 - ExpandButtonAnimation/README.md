@@ -25,4 +25,4 @@ Floating button animation
 
 ## LICENCE
 
-  Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
+  Please checkout [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
