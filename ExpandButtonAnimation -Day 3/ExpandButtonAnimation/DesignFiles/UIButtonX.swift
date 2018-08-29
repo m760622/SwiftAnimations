@@ -9,6 +9,9 @@
 import UIKit
 import QuartzCore
 
+/**
+ Custome button - Main button
+ */
 @IBDesignable
 class UIButtonX: UIButton {
     
@@ -43,6 +46,9 @@ class UIButtonX: UIButton {
         }
     }
     
+    /**
+     handles main button image animation
+     */
     override func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         
         if self.imageView?.transform == .identity {
