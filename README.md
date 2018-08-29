@@ -41,3 +41,20 @@ Watch it in YouTube
 
 
 
+## Day 3 : ExpandButtonAnimation
+
+Floating button animation
+
+#### Description
+
+  I have used the following 
+
+  - [UIViewPropertyAnimator](https://developer.apple.com/documentation/uikit/uiviewpropertyanimator)
+  - [UIView.animate(withDuration:animations:)](https://developer.apple.com/documentation/uikit/uiview/1622418-animate)
+
+
+  Watch it in YouTube 
+
+  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/ExpandButtonAnimation%20-Day%203/image/ExpandButtonAnimation.png)](https://www.youtube.com/watch?v=Uxg5elN8MGw&feature=youtu.be)
+
+
