@@ -8,6 +8,9 @@
 
 import UIKit
 
+/**
+ Sub item labels
+ */
 @IBDesignable
 class UILabelX: UILabel {
 
