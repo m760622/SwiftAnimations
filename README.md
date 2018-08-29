@@ -55,7 +55,7 @@ Floating button animation
 
   Watch it in YouTube 
 
-  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/ExpandButtonAnimation%20-Day%203/images/ExpandButtonAnimation.png)](https://www.youtube.com/watch?v=Uxg5elN8MGw&feature=youtu.be)
+  [![DroppingBall](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%203%20-%20ExpandButtonAnimation/images/ExpandButtonAnimation.png)](https://www.youtube.com/watch?v=Uxg5elN8MGw&feature=youtu.be)
 
 
 
