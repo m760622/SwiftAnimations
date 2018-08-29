@@ -20,7 +20,7 @@
   
   Watch it in YouTube 
 
-  [![LoginPageAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LoginPageAnimation%20-Day%202/image/loginpageanim.png)](https://www.youtube.com/watch?v=zLZ_MkKMEpI&feature=youtu.be)
+  [![LoginPageAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%202%20-%20LoginPageAnimation/image/loginpageanim.png)](https://www.youtube.com/watch?v=zLZ_MkKMEpI&feature=youtu.be)
 
 
 ## LICENCE
