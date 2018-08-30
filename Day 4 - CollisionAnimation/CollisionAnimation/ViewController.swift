@@ -65,8 +65,7 @@ class ViewController: UIViewController {
     }
 
     /**
-     setUp -
-     - parameter :box - UIView object
+     createView - Creating the UIView object for UIDynamicAnimation
      */
     @objc func createView() {
         
@@ -76,8 +75,10 @@ class ViewController: UIViewController {
         self.addBoxToBehaviors(box: subView)
     }
     
+    /**
+     scheduledTimerWithTimeInterval - Calls createView() in an interval - 0.2 milliseconds
+     */
     func scheduledTimerWithTimeInterval(){
-        // Scheduling timer to Call the function "updateCounting" with the interval of 1 seconds
         timer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(self.createView), userInfo: nil, repeats: true)
     }
     
