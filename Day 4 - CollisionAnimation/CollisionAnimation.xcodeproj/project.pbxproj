@@ -81,7 +81,7 @@
 			children = (
 				18E17A1B213824F600C0F7DA /* AppDelegate.swift */,
 				18E17A1D213824F600C0F7DA /* ViewController.swift */,
-				18E17A3B213825C700C0F7DA /* UIViewX.swift */,
+				18E6E55221384BCA00E455C8 /* CustomView */,
 				18E17A1F213824F600C0F7DA /* Main.storyboard */,
 				18E17A22213824F800C0F7DA /* Assets.xcassets */,
 				18E17A24213824F800C0F7DA /* LaunchScreen.storyboard */,
@@ -97,6 +97,14 @@
 				18E17A32213824F800C0F7DA /* Info.plist */,
 			);
 			path = CollisionAnimationTests;
+			sourceTree = "<group>";
+		};
+		18E6E55221384BCA00E455C8 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				18E17A3B213825C700C0F7DA /* UIViewX.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
