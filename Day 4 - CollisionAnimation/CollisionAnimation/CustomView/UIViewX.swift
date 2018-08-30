@@ -12,6 +12,8 @@ class UIViewX: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        // SetUp the layer
         setUp()
     }
     
@@ -19,11 +21,15 @@ class UIViewX: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+    /**
+     SetUp - set the cornerRadius and background color
+     */
     func setUp() {
         layer.cornerRadius = frame.width/2
         backgroundColor = randomColor()
     }
     
+    /
     func randomColor() -> UIColor {
         let red = CGFloat(CGFloat(arc4random()%50000)/50000);
         let green = CGFloat(CGFloat(arc4random()%50000)/50000);
