@@ -64,8 +64,11 @@ class ViewController: UIViewController {
         itemBehavior.addItem(box)
     }
 
-    
-    @objc func setUp() {
+    /**
+     setUp -
+     - parameter :box - UIView object
+     */
+    @objc func createView() {
         
         let guessX = CGFloat(arc4random()).truncatingRemainder(dividingBy: view.bounds.size.width - viewSize)
         let subView = UIViewX(frame: CGRect(x: guessX, y:0 , width: viewSize, height: viewSize))
@@ -75,7 +78,7 @@ class ViewController: UIViewController {
     
     func scheduledTimerWithTimeInterval(){
         // Scheduling timer to Call the function "updateCounting" with the interval of 1 seconds
-        timer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(self.setUp), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(self.createView), userInfo: nil, repeats: true)
     }
     
 }
