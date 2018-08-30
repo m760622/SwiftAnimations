@@ -54,6 +54,10 @@ class ViewController: UIViewController {
         
     }
     
+    /**
+     addBoxToBehaviors - Add view to the UIDynamicAnimation objects
+     - parameter :box - UIView object
+     */
     func addBoxToBehaviors(box: UIView) {
         gravity.addItem(box)
         collider.addItem(box)
