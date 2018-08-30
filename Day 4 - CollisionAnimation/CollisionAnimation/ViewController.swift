@@ -11,23 +11,32 @@ import UIKit
 class ViewController: UIViewController {
 
 
+    // MARK: Properties (Public)
+    
+    // contraints variables
     var timer = Timer()
     let viewSize:CGFloat = 300.0;
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        addAnimation()
-        scheduledTimerWithTimeInterval()
-        
-    }
-    
     var animator:UIDynamicAnimator? = nil;
     let gravity = UIGravityBehavior()
     let collider = UICollisionBehavior()
     let itemBehavior = UIDynamicItemBehavior()
     
+    
+    // MARK: Functions
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Create UIDynamicAnimation objects
+        addAnimation()
+        
+        // Call the View creator Function
+        scheduledTimerWithTimeInterval()
+        
+    }
+    
+    /**
+     addAnimation - Creating the UIDynamicAnimation objects and adding properties
+     */
     func addAnimation(){
         
         animator = UIDynamicAnimator(referenceView:self.view);
