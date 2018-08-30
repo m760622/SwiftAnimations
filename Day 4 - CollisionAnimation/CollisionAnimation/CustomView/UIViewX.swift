@@ -29,8 +29,11 @@ class UIViewX: UIView {
         backgroundColor = randomColor()
     }
     
-    /
+    /**
+     Picks up random color
+     */
     func randomColor() -> UIColor {
+        
         let red = CGFloat(CGFloat(arc4random()%50000)/50000);
         let green = CGFloat(CGFloat(arc4random()%50000)/50000);
         let blue = CGFloat(CGFloat(arc4random()%50000)/50000);
