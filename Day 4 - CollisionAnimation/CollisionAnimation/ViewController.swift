@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     // contraints variables
     var timer = Timer()
-    let viewSize:CGFloat = 300.0;
+    let viewSize:CGFloat = 30;
     var animator:UIDynamicAnimator? = nil;
     let gravity = UIGravityBehavior()
     let collider = UICollisionBehavior()
