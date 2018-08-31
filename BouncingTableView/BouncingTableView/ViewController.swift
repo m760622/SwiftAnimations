@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UITableViewController {
 
     
+    fileprivate let tableCellId = "cellID"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,9 +29,6 @@ extension ViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
     }
-    
-    
-    
     
 }
 
