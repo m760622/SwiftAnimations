@@ -84,6 +84,23 @@ Floating button animation
   [![CollisionAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%204%20-%20CollisionAnimation/images/CollisionAnimation.png)](https://www.youtube.com/watch?v=P79jEN1G8hI&feature=youtu.be)
 
 
+
+## Day 5 : BouncingTableView
+
+Animating the TableView cells
+
+#### Description
+
+
+ I have used the following ,
+
+ - [UIView.animate(withDuration:animations:)](https://developer.apple.com/documentation/uikit/uiview/1622418-animate)
+  
+  Watch it in YouTube 
+
+  [![BouncingTableView](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%205%20-%20BouncingTableView/images/BouncingTableView.png)](https://www.youtube.com/watch?v=B4cMNcyyipM&feature=youtu.be)
+
+
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
