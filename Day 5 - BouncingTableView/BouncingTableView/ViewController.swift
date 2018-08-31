@@ -64,5 +64,25 @@ class ViewController: UITableViewController {
             index += 1
         }
     }
+    
+    
+    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+        if(scrollView.panGestureRecognizer.translation(in: scrollView.superview).y < 0) {
+            
+            let visibleCells = tableView.visibleCells
+            
+            let indexPath:IndexPath = tableView.indexPath(for: visibleCells.last!)!
+            if indexPath.row <= 98 {
+                visibleCells.last?.transform = CGAffineTransform(translationX: 0, y: 20)
+                UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+                    visibleCells.last?.transform = CGAffineTransform(translationX: 0, y: 0);
+                },completion:nil)
+                
+            }
+            
+        }
+       
+    }
 }
 
