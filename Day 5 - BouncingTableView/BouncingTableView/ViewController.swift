@@ -22,7 +22,7 @@ class ViewController: UITableViewController {
         animateCellEntry()
     }
     
-    
+    // UITableViewDataSource methods
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -38,6 +38,10 @@ class ViewController: UITableViewController {
         return cell
     }
     
+    
+    /**
+     animateCellEntry - Animates each cells entry
+     */
     
     func animateCellEntry() {
         tableView.reloadData()
