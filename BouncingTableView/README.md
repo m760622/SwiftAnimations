@@ -16,7 +16,7 @@ Animating the TableView cells
   
   Watch it in YouTube 
 
-  [![CollisionAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%204%20-%20CollisionAnimation/images/CollisionAnimation.png)](https://www.youtube.com/watch?v=P79jEN1G8hI&feature=youtu.be)
+  [![CollisionAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%204%20-%20CollisionAnimation/images/CollisionAnimation.png)](https://www.youtube.com/watch?v=B4cMNcyyipM&feature=youtu.be)
 
 
 ## LICENCE
