@@ -101,6 +101,22 @@ Animating the TableView cells
   [![BouncingTableView](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%205%20-%20BouncingTableView/images/BouncingTableView.png)](https://www.youtube.com/watch?v=B4cMNcyyipM&feature=youtu.be)
 
 
+## Day 5 : CollectionViewLoader
+
+Animating the UicollectionView cells loading 
+
+
+#### Description
+
+
+ I have used the following ,
+
+ - [CGAffineTransform](https://www.google.co.in/search?q=CGAffineTransform&oq=CGAffineTransform&aqs=chrome..69i57j69i61l2j0l3.149j0j1&sourceid=chrome&ie=UTF-8)
+  
+  Watch it in YouTube 
+
+  [![CollectionViewLoader]()](https://youtu.be/orqJHQ0LgzE)
+
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
