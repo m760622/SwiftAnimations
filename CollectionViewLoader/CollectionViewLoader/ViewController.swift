@@ -19,6 +19,7 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Enable the animation for top bar
         navigationController?.navigationBar.prefersLargeTitles = true
 
         let layout = UICollectionViewFlowLayout()
