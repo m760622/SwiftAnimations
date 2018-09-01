@@ -75,6 +75,10 @@ extension ViewController {
         
     }
     
+    /**
+     Animate the bottom cells
+     - parameter : cell, UICollectionViewCell object
+     */
     func animateBottomScaling(_ cell:UICollectionViewCell) {
         
         let cellLocation = cell.convert(cell.bounds, to: view)
