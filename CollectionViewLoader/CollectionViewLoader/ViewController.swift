@@ -57,7 +57,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 
 extension ViewController {
     
-    
     /**
      Animation Action
      - parameter : cell, UICollectionViewCell object
@@ -102,6 +101,10 @@ extension ViewController {
         
     }
     
+    /**
+     Get the scale value
+     - parameter : value, scale value
+     */
     func getScaleValue(_ value: CGFloat) -> CGFloat {
         
         if value < 0 {
