@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegateFlowLayout {
 
+    // Variables
     @IBOutlet weak var collectionView: UICollectionView!
     
     var lowerFrameY:CGFloat = 0.0
@@ -32,6 +33,7 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout {
 
 }
 
+// Data source functions of collection View
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     
@@ -56,6 +58,10 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 extension ViewController {
     
     
+    /**
+     Animation Action
+     - parameter : cell, UICollectionViewCell object
+     */
     func animateCell(_ cell : UICollectionViewCell) {
         
         let cellLocation = cell.convert(cell.bounds, to: view)
