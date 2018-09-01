@@ -115,7 +115,7 @@ Animating the UicollectionView cells loading
   
   Watch it in YouTube 
 
-  [![CollectionViewLoader](CollectionViewLoader.png)](https://youtu.be/orqJHQ0LgzE)
+  [![CollectionViewLoader](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%206%20-%20CollectionViewLoader/images/CollectionViewLoader.png)](https://youtu.be/orqJHQ0LgzE)
 
 ## LICENCE
 
