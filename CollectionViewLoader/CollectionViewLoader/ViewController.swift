@@ -87,7 +87,10 @@ extension ViewController {
         
     }
     
-    
+    /**
+     Animate the top cells
+     - parameter : cell, UICollectionViewCell object
+     */
     func animateTopScaling(_ cell:UICollectionViewCell) {
         
         let cellLocation = cell.convert(cell.bounds, to: view)
