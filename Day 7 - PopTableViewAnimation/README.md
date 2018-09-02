@@ -17,7 +17,7 @@ Animating the pop table animations and gravity drop animation
   
   Watch it in YouTube 
 
-  [![PopTableViewAnimation](BouncingTableView.png)](https://youtu.be/zc4yXwUqGfA)
+  [![PopTableViewAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%207%20-%20PopTableViewAnimation/images/PopTableViewAnimation.png)](https://youtu.be/zc4yXwUqGfA)
 
 
 ## LICENCE
