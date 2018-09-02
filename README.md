@@ -101,7 +101,7 @@ Animating the TableView cells
   [![BouncingTableView](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%205%20-%20BouncingTableView/images/BouncingTableView.png)](https://www.youtube.com/watch?v=B4cMNcyyipM&feature=youtu.be)
 
 
-## Day 5 : CollectionViewLoader
+## Day 6 : CollectionViewLoader
 
 Animating the UicollectionView cells loading 
 
@@ -116,6 +116,25 @@ Animating the UicollectionView cells loading
   Watch it in YouTube 
 
   [![CollectionViewLoader](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%206%20-%20CollectionViewLoader/images/CollectionViewLoader.png)](https://youtu.be/orqJHQ0LgzE)
+
+
+## Day 7 : PopTableViewAnimation
+
+Animating the pop table animations and gravity drop animation
+
+#### Description
+
+
+ I have used the following ,
+
+ - [UIView.animate(withDuration:animations:)](https://developer.apple.com/documentation/uikit/uiview/1622418-animate)
+ - [CGAffineTransform](https://www.google.co.in/search?q=CGAffineTransform&oq=CGAffineTransform&aqs=chrome..69i57j69i61l2j0l3.149j0j1&sourceid=chrome&ie=UTF-8)
+
+  
+  Watch it in YouTube 
+
+  [![PopTableViewAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%207%20-%20PopTableViewAnimation/images/PopTableViewAnimation.png)](https://youtu.be/zc4yXwUqGfA)
+
 
 ## LICENCE
 
