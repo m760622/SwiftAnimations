@@ -74,7 +74,9 @@ class ViewController: UITableViewController {
         })
     }
     
-    
+    /**
+     addRoundCells - Make cells round and add uidynamics
+     */
     func addRoundCells() {
         
         tableView.visibleCells.forEach { (cell) in
@@ -88,7 +90,6 @@ class ViewController: UITableViewController {
                 self.addBoxToBehaviors(cell)
             })
         }
-        
     }
     
     
