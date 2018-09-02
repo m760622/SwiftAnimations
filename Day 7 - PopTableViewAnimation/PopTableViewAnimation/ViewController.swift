@@ -116,6 +116,10 @@ class ViewController: UITableViewController {
         
     }
     
+    /**
+     addBoxToBehaviors - Add cells to the animator
+     - parameter cell: uitableCell object
+     */
     func addBoxToBehaviors(_ cell: UIDynamicItem) {
         gravity.addItem(cell)
         collider.addItem(cell)
