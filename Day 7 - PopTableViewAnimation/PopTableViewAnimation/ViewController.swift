@@ -10,14 +10,11 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
         addAnimation()
     }
-
     
     // UITableViewDataSource methods
     override func numberOfSections(in tableView: UITableView) -> Int {
