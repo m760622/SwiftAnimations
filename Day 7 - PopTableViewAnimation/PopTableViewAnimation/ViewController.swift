@@ -94,11 +94,16 @@ class ViewController: UITableViewController {
         
     }
     
+    
+    // UIDynamics items
     var animator:UIDynamicAnimator? = nil;
     let gravity = UIGravityBehavior()
     let collider = UICollisionBehavior()
     let itemBehavior = UIDynamicItemBehavior()
     
+    /**
+     addAnimation - Add UIDynamics items
+     */
     func addAnimation(){
         
         animator = UIDynamicAnimator(referenceView:self.view);
