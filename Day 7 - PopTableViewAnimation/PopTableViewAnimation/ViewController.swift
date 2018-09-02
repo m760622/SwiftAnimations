@@ -61,6 +61,10 @@ class ViewController: UITableViewController {
         }
     }
     
+    /**
+     scaleCell - cell text scaling
+     - parameter cell: Tableview cell object
+     */
     func scaleCell(_ cell: UITableViewCell?) {
         
         cell?.textLabel?.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
