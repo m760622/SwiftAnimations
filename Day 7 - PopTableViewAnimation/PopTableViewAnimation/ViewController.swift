@@ -52,7 +52,7 @@ class ViewController: UITableViewController {
             cell?.textLabel?.transform = CGAffineTransform(scaleX: 0.3, y: 1.0)
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
                 cell?.textLabel?.transform = .identity
-                self.addLabel()
+                self.addRoundCells()
             })
             
             break
@@ -74,7 +74,8 @@ class ViewController: UITableViewController {
         })
     }
     
-    func addLabel() {
+    
+    func addRoundCells() {
         
         tableView.visibleCells.forEach { (cell) in
             
