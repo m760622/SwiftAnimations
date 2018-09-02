@@ -43,7 +43,6 @@ class ViewController: UITableViewController {
         
         switch indexPath.row {
         case 0:
-            
             let cell = tableView.cellForRow(at: indexPath)
             scaleCell(cell)
             break
