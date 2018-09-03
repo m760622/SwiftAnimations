@@ -54,9 +54,7 @@ class ViewController: UIViewController {
         
     }
     
-    func closeAnimation () {
-        
-        
+    func closeAnimation () {        
         UIView.animate(withDuration: 0.3, delay: 0, animations: {
             
             self.containerView.transform = CGAffineTransform(scaleX: 0.3, y: 0.2)
