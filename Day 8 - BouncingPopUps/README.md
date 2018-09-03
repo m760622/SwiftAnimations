@@ -18,7 +18,7 @@ Animating the pop ups
   
   Watch it in YouTube 
 
-  [![BouncingPopUps]()](https://youtu.be/LSOmlg72ZUg)
+  [![BouncingPopUps](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%208%20-%20BouncingPopUps/images/BouncingPopUps.png)](https://youtu.be/LSOmlg72ZUg)
 
 
 ## LICENCE
