@@ -10,22 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // variables
     @IBOutlet weak var containerView: UIVisualEffectView!
     @IBOutlet weak var innerContainerView: UIView!
     @IBOutlet weak var closeButton: UIButton!
     @IBOutlet weak var overlayView: UIVisualEffectView!
     @IBOutlet weak var headingLabel: UILabel!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // hide the overlay and popup
         overlayView.alpha = 0
         containerView.alpha = 0
+        
         containerView.layer.cornerRadius = 20
         containerView.clipsToBounds = true
         closeButton.layer.cornerRadius = 10
     }
 
+    // Functions
     @IBAction func showPopup(_ sender: Any) {
         UIView.animate(withDuration: 0.3) {
             self.headingLabel.transform = CGAffineTransform(scaleX: 0, y: 0)
@@ -54,7 +60,7 @@ class ViewController: UIViewController {
         
     }
     
-    func closeAnimation () {        
+    func closeAnimation () {
         UIView.animate(withDuration: 0.3, delay: 0, animations: {
             
             self.containerView.transform = CGAffineTransform(scaleX: 0.3, y: 0.2)
