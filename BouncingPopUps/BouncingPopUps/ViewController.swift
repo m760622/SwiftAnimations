@@ -26,18 +26,29 @@ class ViewController: UIViewController {
         overlayView.alpha = 0
         containerView.alpha = 0
         
+        // Set container corner radius
         containerView.layer.cornerRadius = 20
         containerView.clipsToBounds = true
         closeButton.layer.cornerRadius = 10
     }
 
     // Functions
+    
+    /**
+     showPopup - Shows the pop action
+     - parameter sender: Any, the button object
+     */
     @IBAction func showPopup(_ sender: Any) {
+        
+        // scale the label ont he center to 0
         UIView.animate(withDuration: 0.3) {
             self.headingLabel.transform = CGAffineTransform(scaleX: 0, y: 0)
         }
         
+        // scale the popup
         containerView.transform = CGAffineTransform(scaleX: 0.3, y: 2)
+        
+        
         UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0, options: .allowUserInteraction, animations: {
             
             self.containerView.transform = CGAffineTransform.identity
