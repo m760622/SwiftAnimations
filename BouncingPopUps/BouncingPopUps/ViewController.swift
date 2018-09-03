@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     
     /**
      showPopup - Shows the pop action
-     - parameter sender: Any, the button object
+     - parameter sender: Any, UIButton object
      */
     @IBAction func showPopup(_ sender: Any) {
         
@@ -54,10 +54,17 @@ class ViewController: UIViewController {
             self.containerView.transform = CGAffineTransform.identity
             
         })
+        
+        // make the overlay and popup visible
         overlayView.alpha = 1
         containerView.alpha = 1
         
     }
+    
+    /**
+     close popup animation
+     - parameter sender: UIButton object
+     */
     @IBAction func ClosePopup(_ sender: UIButton) {
         closeAnimation()
     }
