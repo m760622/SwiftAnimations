@@ -48,13 +48,12 @@ class ViewController: UIViewController {
         // scale the popup
         containerView.transform = CGAffineTransform(scaleX: 0.3, y: 2)
         
-        
+        // Spring Animation for making the container to original size
         UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 0, options: .allowUserInteraction, animations: {
             
             self.containerView.transform = CGAffineTransform.identity
-        }) { (completion) in
             
-        }
+        })
         overlayView.alpha = 1
         containerView.alpha = 1
         
