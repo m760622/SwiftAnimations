@@ -69,19 +69,27 @@ class ViewController: UIViewController {
         closeAnimation()
     }
     
+    /**
+     touchesBegan - calls when user taps on the screen
+     */
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
+        // check whether the ctapped view is the overlay view
         if touches.first?.view == overlayView {
             closeAnimation()
         }
         
     }
     
+    /**
+     Dismiss the popup
+     */
     func closeAnimation () {
+        
+        // scale animation for the container view
         UIView.animate(withDuration: 0.3, delay: 0, animations: {
             
             self.containerView.transform = CGAffineTransform(scaleX: 0.3, y: 0.2)
-            
             self.overlayView.alpha = 0
             self.containerView.alpha = 0
              self.headingLabel.transform = CGAffineTransform.identity
@@ -89,6 +97,7 @@ class ViewController: UIViewController {
             
         }){(completion) in
             
+            // make the container view to original size
             self.containerView.transform = CGAffineTransform.identity
         }
     }
