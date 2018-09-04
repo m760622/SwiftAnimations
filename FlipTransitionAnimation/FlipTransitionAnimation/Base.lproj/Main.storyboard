@@ -55,6 +55,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="chnegViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vnd-lj-Wvk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeV-Eb-xqL">
                                 <rect key="frame" x="273" y="534" width="80" height="40"/>
@@ -65,6 +68,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="chnegViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sl7-Uv-myf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOl-f7-SI3">
                                 <rect key="frame" x="147" y="534" width="80" height="40"/>
@@ -75,6 +81,9 @@
                                 </constraints>
                                 <color key="tintColor" red="0.93725490199999995" green="0.27058823529999998" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="chnegViewAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fDQ-Or-epF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -88,6 +97,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="view1" destination="Tcc-oV-QDR" id="Sfg-7l-CuJ"/>
+                        <outlet property="view2" destination="rtr-VH-e4Q" id="DlR-q5-5sf"/>
+                        <outletCollection property="actionButtons" destination="QOl-f7-SI3" collectionClass="NSMutableArray" id="cYp-6g-Ge5"/>
+                        <outletCollection property="actionButtons" destination="Otv-Tt-WSB" collectionClass="NSMutableArray" id="X41-He-9SD"/>
+                        <outletCollection property="actionButtons" destination="KeV-Eb-xqL" collectionClass="NSMutableArray" id="cQB-f5-nVv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
