@@ -52,6 +52,19 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    func setUp() {
+        
+        actionButtons.forEach { (button) in
+            button.layer.cornerRadius = 11
+            button.layer.shadowColor = UIColor.darkGray.cgColor
+            button.layer.shadowOffset = CGSize(width: 10, height: 3)
+            button.layer.shadowRadius = 12
+            
+            
+        }
+    }
+    
 
 }
 
