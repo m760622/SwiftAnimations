@@ -12,7 +12,7 @@ Animation transition samples - Flip, curl and cross-dissolve
 
  I have used the following ,
 
- - [UIView.transition)](https://developer.apple.com/documentation/uikit/uiview/1622574-transition)
+ - [UIView.transition](https://developer.apple.com/documentation/uikit/uiview/1622574-transition)
 
   
   Watch it in YouTube 
