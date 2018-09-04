@@ -10,16 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Variables
     @IBOutlet weak var view2: UIView!
     @IBOutlet weak var view1: UIView!
     @IBOutlet var actionButtons: [UIButton]!
     var trasition = false
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    /**
+     Button actions
+     */
     @IBAction func chnegViewAction(_ sender: UIButton) {
         
+        // toggle the transition for slecting the views
         trasition.toggle()
         let fromView:UIView = trasition ? view1 : view2
         let toView:UIView = trasition ? view2 : view1
@@ -39,7 +47,6 @@ class ViewController: UIViewController {
             transition.update(with:UIView.AnimationOptions.transitionCrossDissolve)
         }
 
-        
         UIView.transition(from: fromView, to: toView, duration: 0.50, options: transition) { (completion) in
             
         }
