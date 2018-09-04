@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet var actionButtons: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBAction func chnegViewAction(_ sender: UIButton) {
+        
+        print("fsdf")
+    }
+    
 
 }
 
