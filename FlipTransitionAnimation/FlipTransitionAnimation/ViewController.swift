@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUp()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -58,11 +59,15 @@ class ViewController: UIViewController {
         actionButtons.forEach { (button) in
             button.layer.cornerRadius = 11
             button.layer.shadowColor = UIColor.darkGray.cgColor
-            button.layer.shadowOffset = CGSize(width: 10, height: 3)
-            button.layer.shadowRadius = 12
-            
-            
+            button.layer.shadowOffset = CGSize(width: 5, height: 5)
+            button.layer.shadowOpacity = 1.0
         }
+        
+        view2.layer.cornerRadius = 11
+        view1.layer.cornerRadius = 11
+       
+        
+        
     }
     
 
