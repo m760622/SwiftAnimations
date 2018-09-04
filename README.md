@@ -153,6 +153,24 @@ Animating the pop ups
 
   [![BouncingPopUps](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%208%20-%20BouncingPopUps/images/BouncingPopUps.png)](https://youtu.be/LSOmlg72ZUg)
 
+
+## Day 9 : FlipTransitionAnimation
+
+Animation transition samples - Flip, curl and cross-dissolve
+
+#### Description
+
+
+ I have used the following ,
+
+ - [UIView.transition)](https://developer.apple.com/documentation/uikit/uiview/1622574-transition)
+
+  
+  Watch it in YouTube 
+
+  [![FlipTransitionAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%209%20-%20FlipTransitionAnimation/images/FlipTransitionAnimation.png)](https://youtu.be/-lsy86dYCsI)
+
+  
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
