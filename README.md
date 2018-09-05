@@ -188,7 +188,7 @@ TinderPulseAnimation search animation
   
   Watch it in YouTube 
 
-  [![TinderPulseAnimation]()](https://youtu.be/YOEYh86TKso)
+  [![TinderPulseAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2010%20-%20TinderPulseAnimation/images/TinderPulseAnimation.png)](https://youtu.be/YOEYh86TKso)
 
 
 ## LICENCE
