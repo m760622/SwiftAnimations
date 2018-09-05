@@ -171,6 +171,26 @@ Animation transition samples - Flip, curl and cross-dissolve
   [![FlipTransitionAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%209%20-%20FlipTransitionAnimation/images/FlipTransitionAnimation.png)](https://youtu.be/-lsy86dYCsI)
 
 
+## Day 10 : TinderPulseAnimation
+
+TinderPulseAnimation search animation
+
+
+#### Description
+
+
+ I have used the following ,
+
+ - [CAKeyframeAnimation](https://developer.apple.com/documentation/quartzcore/cakeyframeanimation)
+ - [CAAnimationGroup](https://developer.apple.com/documentation/quartzcore/caanimationgroup)
+ - [CABasicAnimation](https://developer.apple.com/documentation/quartzcore/cabasicanimation)
+
+  
+  Watch it in YouTube 
+
+  [![TinderPulseAnimation]()]()
+
+
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
