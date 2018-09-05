@@ -1,0 +1,27 @@
+### TinderPulseAnimation
+
+TinderPulseAnimation search animation
+
+## Requirements
+
+ - XCode 10 
+ - iOS 12
+
+## Description
+
+
+ I have used the following ,
+
+ - [CAKeyframeAnimation](https://developer.apple.com/documentation/quartzcore/cakeyframeanimation)
+ - [CAAnimationGroup](https://developer.apple.com/documentation/quartzcore/caanimationgroup)
+ - [CABasicAnimation](https://developer.apple.com/documentation/quartzcore/cabasicanimation)
+
+  
+  Watch it in YouTube 
+
+  [![TinderPulseAnimation]()]()
+
+
+## LICENCE
+
+  Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
