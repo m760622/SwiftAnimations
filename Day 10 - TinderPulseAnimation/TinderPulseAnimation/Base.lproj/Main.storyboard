@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TinderPulseAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hD-nU-H46">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SU-eQ-4Mq">
+                                        <rect key="frame" x="23" y="38" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="QVu-3S-nDU"/>
+                                            <constraint firstAttribute="height" constant="40" id="gzE-AX-MdE"/>
+                                        </constraints>
+                                        <state key="normal" image="Profile"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Brd-fL-w6D">
+                                        <rect key="frame" x="312" y="38" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Apx-KP-yn0"/>
+                                            <constraint firstAttribute="width" constant="40" id="Z3m-r3-Fa9"/>
+                                        </constraints>
+                                        <state key="normal" image="Chat"/>
+                                    </button>
+                                    <segmentedControl autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="peK-h5-aWf" customClass="TinderSegmentedControl" customModule="TinderPulseAnimation" customModuleProvider="target">
+                                        <rect key="frame" x="140" y="44" width="100" height="29"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="0OI-RB-69a"/>
+                                            <constraint firstAttribute="width" constant="100" id="w5B-9n-joS"/>
+                                        </constraints>
+                                        <segments>
+                                            <segment title="" image="Group 1"/>
+                                            <segment title="" image="Group 4"/>
+                                        </segments>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="selectionAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="Vh3-Qu-FZ9"/>
+                                        </connections>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="7SU-eQ-4Mq" firstAttribute="leading" secondItem="0hD-nU-H46" secondAttribute="leading" constant="23" id="EE9-XS-s8y"/>
+                                    <constraint firstItem="peK-h5-aWf" firstAttribute="top" secondItem="0hD-nU-H46" secondAttribute="top" constant="44" id="GTg-mV-wlE"/>
+                                    <constraint firstItem="Brd-fL-w6D" firstAttribute="top" secondItem="0hD-nU-H46" secondAttribute="top" constant="38" id="GnE-F0-M12"/>
+                                    <constraint firstItem="peK-h5-aWf" firstAttribute="centerX" secondItem="0hD-nU-H46" secondAttribute="centerX" constant="2.5" id="WeS-a1-tIJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Brd-fL-w6D" secondAttribute="trailing" constant="23" id="csR-IJ-iRD"/>
+                                    <constraint firstItem="7SU-eQ-4Mq" firstAttribute="top" secondItem="0hD-nU-H46" secondAttribute="top" constant="38" id="g0g-Hb-M5R"/>
+                                    <constraint firstAttribute="height" constant="86" id="gWU-2i-ifV"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User Photo" translatesAutoresizingMaskIntoConstraints="NO" id="mBs-Fi-ryu" customClass="TinderSearchImageView" customModule="TinderPulseAnimation" customModuleProvider="target">
+                                <rect key="frame" x="112.66666666666669" y="331" width="150" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="7ed-6I-y1L"/>
+                                    <constraint firstAttribute="width" constant="150" id="sWm-5R-ec2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0hD-nU-H46" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FLP-eM-To2"/>
+                            <constraint firstItem="0hD-nU-H46" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JWz-2k-PyF"/>
+                            <constraint firstItem="0hD-nU-H46" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WuZ-wl-RV9"/>
+                            <constraint firstItem="mBs-Fi-ryu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YRW-JK-hLh"/>
+                            <constraint firstItem="mBs-Fi-ryu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v35-ba-fav"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchingImageView" destination="mBs-Fi-ryu" id="djk-5p-Oz7"/>
+                        <outlet property="segmentedController" destination="peK-h5-aWf" id="2Tl-L1-XCp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="26.600985221674879"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Chat" width="34" height="25"/>
+        <image name="Group 1" width="200" height="100"/>
+        <image name="Group 4" width="200" height="100"/>
+        <image name="Profile" width="21" height="27"/>
+        <image name="User Photo" width="88" height="88"/>
+    </resources>
+</document>
