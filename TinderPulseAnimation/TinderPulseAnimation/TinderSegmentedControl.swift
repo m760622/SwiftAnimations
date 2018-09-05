@@ -8,14 +8,27 @@
 
 import UIKit
 
-class TinderSegmentedControl: UIControl {
+@IBDesignable class TinderSegmentedControl: UISegmentedControl {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+ 
+    @IBInspectable public var borderColor: UIColor = UIColor.darkGray {
+        didSet {
+            self.layer.borderColor = borderColor.cgColor
+            self.layer.borderWidth = 1.5
+        }
     }
-    */
-
+    
+    @IBInspectable public var borderWidth: CGFloat = 2.0 {
+        didSet {
+            self.layer.borderWidth = borderWidth
+        }
+    }
+    @IBInspectable public var cornerRadius: CGFloat = 2.0 {
+        didSet {
+            self.layer.cornerRadius = cornerRadius
+            
+        }
+    }
+    
+    
 }
