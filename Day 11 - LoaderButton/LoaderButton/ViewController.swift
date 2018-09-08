@@ -90,6 +90,7 @@ class ViewController: UIViewController {
         progressLayer.removeAllAnimations()
         backgroundLayer.removeFromSuperlayer()
         progressLayer.removeFromSuperlayer()
+        self.submitButton.imageView?.transform = CGAffineTransform(scaleX: 0, y: 0)
          UIView.animate(withDuration: 0.8, animations: {
             self.submitButton.imageView?.transform = .identity
             self.submitButton.setImage(UIImage(named: "select"), for: .normal)
