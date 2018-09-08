@@ -191,6 +191,22 @@ TinderPulseAnimation search animation
   [![TinderPulseAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2010%20-%20TinderPulseAnimation/images/TinderPulseAnimation.png)](https://youtu.be/YOEYh86TKso)
 
 
+
+
+## Day 11 :  LoaderButton
+
+LoaderButton animation
+
+## Description
+
+
+ I have used the following ,
+
+  
+  Watch it in YouTube 
+
+  [![LoaderButtonAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2011%20-%20LoaderButton/images/LoaderButton.png)](https://youtu.be/8DNtAIDTvhI)
+
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
