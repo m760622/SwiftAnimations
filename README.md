@@ -212,6 +212,26 @@ LoaderButton animation
 
   [![LoaderButtonAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2011%20-%20LoaderButton/images/LoaderButton.png)](https://youtu.be/8DNtAIDTvhI)
 
+
+
+## Day 11 : EmitterAnimation
+
+EmitterAnimation animation
+
+#### Description
+
+
+ I have used the following ,
+
+ - [UIView.animate(withDuration:animations:)](https://developer.apple.com/documentation/uikit/uiview/1622418-animate)
+ - [CAKeyframeAnimation](https://developer.apple.com/documentation/quartzcore/cakeyframeanimation)
+
+  
+  Watch it in YouTube 
+
+  [![EmitterAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2012%20-%20EmitterAnimation/images/EmitterAnimation.png)](https://youtu.be/A2tVf0m7lyg)
+
+
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
