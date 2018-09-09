@@ -18,7 +18,7 @@ EmitterAnimation animation
   
   Watch it in YouTube 
 
-  [![EmitterAnimation]()]()
+  [![EmitterAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2012%20-%20EmitterAnimation/images/EmitterAnimation.png)](https://youtu.be/A2tVf0m7lyg)
 
 
 ## LICENCE
