@@ -214,7 +214,7 @@ LoaderButton animation
 
 
 
-## Day 11 : EmitterAnimation
+## Day 12 : EmitterAnimation
 
 EmitterAnimation animation
 
@@ -232,11 +232,10 @@ EmitterAnimation animation
   [![EmitterAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2012%20-%20EmitterAnimation/images/EmitterAnimation.png)](https://youtu.be/A2tVf0m7lyg)
 
 
-## Day 12 : EmitterAnimation
+## Day 13 : EmitterAnimation
 
-## Day 12 : EmitterAnimation
+## Day 14 : EmitterAnimation
 
-## Day 12 : EmitterAnimation
 
 ## LICENCE
 
