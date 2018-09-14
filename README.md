@@ -232,6 +232,12 @@ EmitterAnimation animation
   [![EmitterAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2012%20-%20EmitterAnimation/images/EmitterAnimation.png)](https://youtu.be/A2tVf0m7lyg)
 
 
+## Day 12 : EmitterAnimation
+
+## Day 12 : EmitterAnimation
+
+## Day 12 : EmitterAnimation
+
 ## LICENCE
 
   Please follow [Licence](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/LICENSE)
