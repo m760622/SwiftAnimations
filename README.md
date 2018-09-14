@@ -232,9 +232,9 @@ EmitterAnimation animation
   [![EmitterAnimation](https://github.com/AnanthaKrish/SwiftAnimations/blob/master/Day%2012%20-%20EmitterAnimation/images/EmitterAnimation.png)](https://youtu.be/A2tVf0m7lyg)
 
 
-## Day 13 : EmitterAnimation
+## Day 13 : CircularViewTransition
 
-## Day 14 : EmitterAnimation
+## Day 14 : MenuButtons Animation
 
 
 ## LICENCE
