@@ -60,6 +60,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="countLabel2" destination="Ygh-RH-5Zp" id="Gmo-v2-f6E"/>
+                        <outlet property="countLabel3" destination="PAd-Y0-ObR" id="2RI-b4-J73"/>
+                        <outlet property="countLable1" destination="rIw-md-q7H" id="bcP-aQ-zVu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

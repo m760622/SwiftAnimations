@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var countLable1: UILabel!
+    @IBOutlet var countLabel2: UILabel!
+    @IBOutlet var countLabel3: UILabel!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        super.viewDidLoad()       
     }
 
 
