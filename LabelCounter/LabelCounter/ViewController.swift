@@ -15,9 +15,24 @@ class ViewController: UIViewController {
     @IBOutlet var countLabel3: UILabel!
     
     override func viewDidLoad() {
-        super.viewDidLoad()       
+        super.viewDidLoad()
+        countLable1.setShadow()
+        countLabel2.setShadow()
+        countLabel3.setShadow()
     }
 
 
 }
 
+extension UILabel {
+    
+    func setShadow() {
+        self.layer.cornerRadius = 15.0
+        self.clipsToBounds = true
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOffset = CGSize(width: 0.0, height: 2.0)
+        self.layer.masksToBounds = false
+        self.layer.shadowRadius = 1.0
+        self.layer.shadowOpacity = 0.5
+    }
+}
