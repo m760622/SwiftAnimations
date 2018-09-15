@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     let startValue:Double = 0
     let endValue:Double = 1000
-    let duration:Double = 1.5
+    let duration:Double = 5.0
     let startTime = Date()
     
     override func viewDidLoad() {
@@ -24,10 +24,10 @@ class ViewController: UIViewController {
         countLable1.setShadow()
         countLabel2.setShadow()
         countLabel3.setShadow()
-        startAnimation()
     }
     
-    func startAnimation () {
+    @IBAction func startAnimation(_ sender: Any) {
+
     
         let labelAnimation = CADisplayLink(target: self, selector: #selector(loader))
         
@@ -40,13 +40,13 @@ class ViewController: UIViewController {
         let elapsedTime = time.timeIntervalSince(startTime)
         
         if elapsedTime > duration {
-            countLable1.text = "\(endValue)"
+            countLable1.text = "\(Int(endValue))"
             
         } else {
             
             let percentage = elapsedTime / duration
             let value = percentage * (endValue - startValue)
-            countLable1.text = "\(value)"
+            countLable1.text = "\(Int(value))"
         }
     }
 
