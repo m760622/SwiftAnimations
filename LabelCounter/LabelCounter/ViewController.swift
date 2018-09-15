@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         countLable1.setShadow()
         countLabel2.setShadow()
         countLabel3.setShadow()
+        startAnimation()
     }
     
     func startAnimation () {
