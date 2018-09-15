@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet var countLabel3: UILabel!
     
     let startValue:Double = 0
-    let endValue:Double = 1000
+    let endValue:Double = 5000
     let duration:Double = 5.0
     let startTime = Date()
     
