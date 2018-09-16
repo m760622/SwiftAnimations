@@ -236,6 +236,8 @@ EmitterAnimation animation
 
 ## Day 14 : MenuButtons Animation
 
+## Day 14 : Label Counter Animation
+
 
 ## LICENCE
 
