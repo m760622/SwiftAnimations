@@ -21,20 +21,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //setup labels
         countLable1.setShadow()
         countLabel2.setShadow()
         countLabel3.setShadow()
     }
     
+    // IBAction for counter
     @IBAction func startAnimation(_ sender: Any) {
 
-    
         let labelAnimation = CADisplayLink(target: self, selector: #selector(loader))
-        
         labelAnimation.add(to: .main, forMode: .default)
     }
     
-    // Shadow set method
+    // Loader function
     @objc func loader() {
         
         let time = Date()
