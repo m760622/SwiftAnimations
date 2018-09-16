@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var countLable1: UILabel!
+    @IBOutlet var countLabel1: UILabel!
     @IBOutlet var countLabel2: UILabel!
     @IBOutlet var countLabel3: UILabel!
     
@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //setup labels
-        countLable1.setShadow()
+        countLabel1.setShadow()
         countLabel2.setShadow()
         countLabel3.setShadow()
     }
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         let elapsedTime = time.timeIntervalSince(startTime)
         
         if elapsedTime > duration {
-            countLable1.text = "\(Int(endValue))"
+            countLabel1.text = "\(Int(endValue))"
             countLabel2.text = "\(Int(endValue))"
             countLabel3.text = "\(Int(endValue))"
             
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             
             let percentage = elapsedTime / duration
             let value = percentage * (endValue - startValue)
-            countLable1.text = "\(Int(value))"
+            countLabel1.text = "\(Int(value))"
             countLabel2.text = "\(Int(value))"
             countLabel3.text = "\(Int(value))"
         }
