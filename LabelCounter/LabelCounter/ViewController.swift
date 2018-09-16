@@ -53,6 +53,7 @@ class ViewController: UIViewController {
 
 }
 
+// Shadow set method
 extension UILabel {
     
     func setShadow() {
