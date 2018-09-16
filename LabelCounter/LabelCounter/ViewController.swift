@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         labelAnimation.add(to: .main, forMode: .default)
     }
     
+    // Shadow set method
     @objc func loader() {
         
         let time = Date()
