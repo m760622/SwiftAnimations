@@ -43,12 +43,16 @@ class ViewController: UIViewController {
         
         if elapsedTime > duration {
             countLable1.text = "\(Int(endValue))"
+            countLable2.text = "\(Int(endValue))"
+            countLable3.text = "\(Int(endValue))"
             
         } else {
             
             let percentage = elapsedTime / duration
             let value = percentage * (endValue - startValue)
             countLable1.text = "\(Int(value))"
+            countLable2.text = "\(Int(value))"
+            countLable3.text = "\(Int(value))"
         }
     }
 
