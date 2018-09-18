@@ -8,18 +8,33 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet var unFLoatlabelHeightC: NSLayoutConstraint!
     @IBOutlet var usernameFloatLabel: UILabel!
     @IBOutlet var passwordFloatLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        usernameFloatLabel.transform = CGAffineTransform(scaleX: 1, y: 0.001)
-        passwordFloatLabel.transform = CGAffineTransform(scaleX: 1, y: 0.001)
-        
-        
+        usernameFloatLabel.transform = CGAffineTransform(scaleX: 1, y: 0)
+        passwordFloatLabel.transform = CGAffineTransform(scaleX: 1, y: 0)
     }
+    
+    
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        
+        if textField.tag == 1 {
+            
+            UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
+                 self.usernameFloatLabel.transform = CGAffineTransform.identity
+            })
+            
+        } else if textField.tag == 2 {
+            
+        }
+    }
+    
     
     
 
