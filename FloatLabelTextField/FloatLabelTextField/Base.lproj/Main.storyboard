@@ -122,6 +122,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="passwordFloatLabel" destination="fEV-KJ-ysK" id="xUc-2s-jUq"/>
                         <outlet property="usernameFloatLabel" destination="kQw-cS-LaT" id="Tny-iv-NwG"/>
                     </connections>
                 </viewController>

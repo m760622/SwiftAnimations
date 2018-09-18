@@ -11,10 +11,17 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var usernameFloatLabel: UILabel!
+    @IBOutlet var passwordFloatLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        usernameFloatLabel.transform = CGAffineTransform(scaleX: 1, y: 0.001)
+        passwordFloatLabel.transform = CGAffineTransform(scaleX: 1, y: 0.001)
+        
+        
     }
+    
+    
 
 
 }
